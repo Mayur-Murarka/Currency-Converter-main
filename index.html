@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <label>US Dollar (USD)</label>
+        <input type="number" id="usdInput" placeholder="Enter amount in USD" />
+        
+        <label style="margin-top: 25px;">Indian Rupee (INR)</label>
+        <input type="number" id="inrInput" placeholder="Enter amount in INR" /> <br><br>
+        
+        <button class="button" onclick="convertToINR()">Convert to INR</button>
+        <button class="button" onclick="convertToUSD()">Convert to USD</button>
+        
+        <div class="result">
+            <span id="convertedAmount"></span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
